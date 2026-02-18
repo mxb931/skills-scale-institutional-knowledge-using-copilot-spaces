@@ -20,6 +20,17 @@ To get started, you need access to Copilot Spaces and a GitHub Copilot plan with
 > [!NOTE]
 > Questions you submit in a Copilot Space count as Copilot Chat requests. Premium models multiply usage. See [Requests in GitHub Copilot](https://docs.github.com/en/copilot/managing-copilot/understanding-and-managing-copilot-usage/understanding-and-managing-requests-in-copilot#model-multipliers) for details.
 
+### 🔍 How to Access Your Copilot Spaces
+
+To access your Copilot Spaces at any time:
+
+1. **Direct URL**: Navigate to [https://github.com/copilot/spaces](https://github.com/copilot/spaces)
+2. **From GitHub**: Click on your profile icon in the top-right corner → Select **Copilot** → Choose **Spaces**
+3. **Your Spaces List**: Once you create spaces, you'll see them listed at the Copilot Spaces homepage where you can click on any space name to open it
+
+> [!TIP]
+> Bookmark [https://github.com/copilot/spaces](https://github.com/copilot/spaces) for quick access to all your spaces!
+
 ### ⌨️ Activity: Create your OctoAcme Project Management Hub Copilot Space
 
 1. Navigate to GitHub Copilot Spaces https://github.com/copilot/spaces (ensure you have access to this feature)

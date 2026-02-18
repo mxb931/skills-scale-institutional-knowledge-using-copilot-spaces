@@ -25,31 +25,38 @@ Effective process evolution follows a lightweight cycle:
 
 _Use the following prompt in a new Copilot Space conversation:_
 
-- Select your repository
+1. **Open your Copilot Space**:
+   - Navigate to [https://github.com/copilot/spaces](https://github.com/copilot/spaces)
+   - Click on **OctoAcme Project Management Hub** to open your space
+   - Start a new conversation
 
-  > ```text
-  > {{full_repo_name}}
-  > ```
+2. **Select your repository**
 
-- Select the issue template to this new Copilot Space conversation. </br>
-  `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`
+   > ```text
+   > {{full_repo_name}}
+   > ```
 
-     <img width="30%" height="30%" alt="Attach" src="https://github.com/user-attachments/assets/2a447ff9-76d7-462f-9292-4663c8dc0fc9" />
-     <img width="30%" height="30%" alt="Attach files" src="https://github.com/user-attachments/assets/6ac6e33d-b333-424f-b431-e3feb7022b84" />
+3. **Select the issue template** to this new Copilot Space conversation. </br>
+   `.github/ISSUE_TEMPLATE/add-update-content-to-process-docs.yml`
 
-     <img width="30%" height="30%" alt="Attach issue template conversation" src="https://github.com/user-attachments/assets/5fc71905-ede6-45cb-bcfa-93d2797160b2" />
+   <img width="30%" height="30%" alt="Attach" src="https://github.com/user-attachments/assets/2a447ff9-76d7-462f-9292-4663c8dc0fc9" />
+   <img width="30%" height="30%" alt="Attach files" src="https://github.com/user-attachments/assets/6ac6e33d-b333-424f-b431-e3feb7022b84" />
 
-  > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
-  >
-  > ```prompt
-  > Use the attached issue template
-  > - Identify potential new personas/roles that could be added to the project management processes documentation
-  >   to enhance clarity and accountability.
-  > - Create an issue titled "Adding more personas and roles to the project management processes"
-  >    that outlines the need to expand the defined roles and responsibilities in the project management documentation.
-  > - Make sure the new roles/personas have descriptions of their responsibilities and how they interact with existing roles.
-  > - The issue should detail why this is important, potential personas to add, and how it will improve project outcomes.
-  > - add to the process document `docs/octoacme-roles-and-personas.md`
+   <img width="30%" height="30%" alt="Attach issue template conversation" src="https://github.com/user-attachments/assets/5fc71905-ede6-45cb-bcfa-93d2797160b2" />
+
+4. **Submit the following prompt**:
+
+   > ![Static Badge](https://img.shields.io/badge/-Prompt-text?style=social&logo=github%20copilot)
+   >
+   > ```prompt
+   > Use the attached issue template
+   > - Identify potential new personas/roles that could be added to the project management processes documentation
+   >   to enhance clarity and accountability.
+   > - Create an issue titled "Adding more personas and roles to the project management processes"
+   >    that outlines the need to expand the defined roles and responsibilities in the project management documentation.
+   > - Make sure the new roles/personas have descriptions of their responsibilities and how they interact with existing roles.
+   > - The issue should detail why this is important, potential personas to add, and how it will improve project outcomes.
+   > - add to the process document `docs/octoacme-roles-and-personas.md`
   > ```
 
     <img width="50%" height="50%" alt="personas/roles issue draft" src="https://github.com/user-attachments/assets/cd02e396-2505-450a-aca3-8e1642d6306a" />
@@ -136,6 +143,10 @@ Check issues list: [https://github.com/{{full_repo_name}}/issues](https://github
 <details>
 <summary>Having trouble? 🤷</summary>
 
+- **Can't find your Copilot Space?** 
+  - Navigate to [https://github.com/copilot/spaces](https://github.com/copilot/spaces)
+  - Look for "OctoAcme Project Management Hub" in your spaces list
+  - If you don't see it, return to Step 1 to create it first
 - Focus on the most impactful improvements identified in your analysis
 - Consider adding templates, checklists, or clarifying existing processes
 - Common improvements include: role clarification, communication protocols, decision-making frameworks

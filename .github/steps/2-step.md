@@ -28,7 +28,10 @@ Proceed to the activities and run the provided prompts in your Copilot Space.
 ### ⌨️ Activity: Explore the project management process docs and Summarize in your Copilot Space
 
 - Generate a summary. Should be 3-4 paragraphs covering the main processes OctoAcme uses for project management.
-- Open your Copilot Space you created in the previous step. https://github.com/copilot/spaces or by clicking the name <img width="50%" height="50%" alt="link to Copilot Space" src="https://github.com/user-attachments/assets/13534299-c764-4d20-9760-88bd7dac7cff" />
+- Open your Copilot Space you created in the previous step:
+  - Go to [https://github.com/copilot/spaces](https://github.com/copilot/spaces)
+  - Click on **OctoAcme Project Management Hub** from your spaces list
+  - Or click directly on the space name from notifications/recent activity <img width="50%" height="50%" alt="link to Copilot Space" src="https://github.com/user-attachments/assets/13534299-c764-4d20-9760-88bd7dac7cff" />
 - Start a new conversation in the Copilot Space and prompt the following:
   <img width="70%" height="70%" alt="Copilot Space conversation OctoAcme project management process docs summary" src="https://github.com/user-attachments/assets/342605be-4b36-48b2-b54f-18ae85f16bb8" />
 
@@ -125,6 +128,10 @@ In this activity, you will connect the issue you created in Step 1 to your Copil
 <details>
 <summary>Having trouble? 🤷</summary>
 
+- **Can't find your Copilot Space?** 
+  - Go directly to [https://github.com/copilot/spaces](https://github.com/copilot/spaces) to see all your spaces
+  - Your space should be named "OctoAcme Project Management Hub" from Step 1
+  - If you don't see it, you may need to recreate it following Step 1 instructions
 - **Can't find your issue?** Check the [Issues tab](https://github.com/{{full_repo_name}}/issues) in your repository for the issue you created in Step 1
 - **Issue not attaching?** Make sure you're using the exact format `@{{full_repo_name}}/issues/#` where `#` is your issue number
 - **Coding agent not working?** Ensure you have the necessary permissions to create pull requests in your repository
